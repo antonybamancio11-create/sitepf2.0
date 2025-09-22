@@ -106,7 +106,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               <span className="text-lg font-semibold">Polícia Federal</span>
             </div>
             <p className="text-blue-200 text-sm">
-              © 2024 Polícia Federal. Todos os direitos reservados.
+              © 2025 Polícia Federal. Todos os direitos reservados.
             </p>
             <p className="text-blue-300 text-xs mt-2">
               Protegendo a sociedade, defendendo a lei.
