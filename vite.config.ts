@@ -1,4 +1,3 @@
-
 import type { UserConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
 import { defineConfig } from 'vite'
@@ -31,6 +30,7 @@ export default defineConfig(({ mode }) => {
 
   return {
     plugins: [react()],
+    base: '/sitepf2.0/',
     build,
     esbuild,
     define,
@@ -44,4 +44,3 @@ export default defineConfig(({ mode }) => {
     },
   }
 })
-
